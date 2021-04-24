@@ -10,10 +10,13 @@
     font-family: Antonio;
 }
 
+html, body {
+	height: 100%;
+	}
+
 .navbar{
- 
     width: 100%;
-    height: 100px;
+    height: 16%;
     background-color:none;
     overflow: hidden;
 }
@@ -31,7 +34,7 @@
 }
 
 .navbar li{
-    font-size: 150%;
+    font-size: 130%;
     float: right; 
     color: black;  
     list-style-type: none;
@@ -48,14 +51,15 @@
 }
 
 .navbar li:hover {
-    background-color: black;
+    background-color: #2a2a2a;
     transition-duration: 700ms;
     color: white;
     
 }
 
 #conteudoIndex {
-    height: 500px;
+    position: relative;
+    height: 84%;
     margin-right: 100px;
     margin-left: 100px;
     margin-top: 5px;
@@ -63,16 +67,19 @@
 
 #fotoLyncon{
     float: left;
+    height: 76.8%;
+    width: 29.5%;
+    
 }
 
 #fotoLyncon img{
-    height: 480px;
-    width: 327px;
+    height: 100%;
+    width: 100%;
 }
 
 #textosIndex{
     float: right;
-    margin-top: 100px;
+    margin-top: 162px;
     height: 300px;
     width: 500px;
 }
@@ -95,7 +102,8 @@
     width: 500px;
     height: 200px;
 }
-.botoes{
+
+.botoes{ 
     text-align: center;
     width: 490px;
     height: 30px;
@@ -105,8 +113,73 @@
     float: right ;
     color: black;
 }
+
 .botoes:hover{
-    background-color: black;
+    background-color: #2a2a2a;
     color: white;
+    transition-duration: 700ms;
+}
+
+#rodape{
+    width: 100%;
+    height: 16%;
+    background-color:#2a2a2a;
+}
+
+#conteudoRodape{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#contatos{
+    float:left;
+    width: 200px;
+    height: 100px;
+    text-align: center;  
+}
+
+#txtContatos{
+    text-align: center;
+    font-size:120%;
+    color: white;
+    width: 190px;
+    padding: 5px;
+
+}
+
+.meiosContato{
+    text-align: center;
+    font-size: 100%;
+    color: white;
+    width: 190px;
+    padding:5px;
+}
+
+#redes{
+    float: right;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+#txtRedes{
+    text-align: center;
+    font-size:120%;
+    color: white;
+    width: 190px;
+    padding:5px;
+}
+.icones{
+    float:right;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    margin-right: 38px;
+}
+.icones img{
+    width: inherit;
+    height: inherit;
+}
+.icones:hover{
+    opacity: 0.5;
     transition-duration: 700ms;
 }
