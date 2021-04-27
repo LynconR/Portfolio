@@ -3,26 +3,26 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
-
+        <title>Meu portfólio!</TITle>
     </head>
 
     <body>
         <nav class="navbar">
-            <a href="index.html"><img src="imagens/LogoLyn.png"></a>
+            <a href="#conteudoIndex"><img src="imagens/LogoLyn.png"></a>
                 <ul>   
-                    <a href="#">
-                        <li>Feedback</li>
+                    <a href="#rodape">
+                        <li>Contatos & Redes</li>  
                     </a>
-                    <a href="#">
-                        <li>Contatos & Redes</li>              
+                    <a href="#conteudoFeedback">
+                          <li>Feedback</li>           
                     </a> 
-                    <a href="#">
+                    <a href="#conteudoPortfolio">
                         <li>Portfólio</li>
                     </a>              
-                   <a href="#">
+                   <a href="#conteudoObjetivos">
                        <li>Objetivos</li>
                     </a> 
-                    <a href="#">
+                    <a href="#conteudoSobre">
                         <li>Sobre</li> 
                     </a> 
                     
@@ -30,18 +30,19 @@
         </nav>
 
         <hr size="3" width="100%" color="black">
-
+<!--INICIO DA HOME (PÁGINA INICIAL/PRIMEIRA PAGINA MOSTRADA)-->
         <div id="conteudoIndex">
-            <div id="fotoLyncon">
-                <img src="imagens/teste.jpg">
+            <div id="imagemIndex">
+                <img src="imagens/programador.jpg">
             </div>
             <div id="textosIndex">
                 <div id="txtBemVindo">
                     <p>
                         Seja bem vindo!
                     </p>
+                    <hr size="3" width="100%" color="black">
                 </div>
-                <div id="txtResumo">
+                <div id="txtResumoIndex">
                     <p> 
                         Olá, meu nome é Lyncon Robert, este é meu site e ele tem como objetivo mostrar a minha carreira profissional como programador, mostrando informações sobre mim, trabalhos que ja participei ou desenvolvi e contatos para negócios.
                     </p>
@@ -57,6 +58,82 @@
                 </div>
             </div>
         </div>
+<!--FIM DA HOME E INICIO DA SESSÃO "SOBRE"-->
+        <div id="conteudoSobre">
+            <div id="textosSobre">
+                <div id="txtSobre">
+                    <p>Sobre mim</p>
+                    <hr size="3" width="100%" color="white">
+                </div>
+                <div id="txtResumoSobre">
+                    <p>
+                        Sou técnico em desenvolvimento de sistemas formado na etec Itaquera São Paulo-SP.
+                        Fiz alguns projetos enquanto eu estudava lá, como páginas web, sistemas java e 
+                        embarcados, mas ainda assim nao me considero uma pessoa com grandes experiencias no mundo da programação.   
+                    </p>
+                </div>
+            </div>
+            <div id="imagemSobre">
+                <img src="imagens/programador.jpg">
+            </div>
+        </div>
+<!-- FIM DA SESSÃO "SOBRE" E INÍCIO DA SESSAO "OBJETIVOS"-->
+        <div id="conteudoObjetivos">
+            <div id="textosObjetivos">
+                <div id="txtObjetivos">
+                    <p>Meus Objetivos</p>
+                    <hr size="3" width="100%" color="black">
+                </div>
+                <div id="txtResumoObjetivos">
+                    <p>
+                        Este site tem como objetivo, além de exercitar minhas habilidades como desenvolvedor, 
+                        mostrar meu portfólio para todos que desejam conhecer mais sobre o meu trabalho como programador web.
+                        <br>
+                        Meus objetivos pessoais são: aprender novas técnicas de desenvolvimento e expandir minhas áreas de conhecimento
+                        para futuramente me tornar um profissional em programação. 
+                    </p>
+                </div>
+            </div>
+            <div id="imagemObjetivos">
+                <img src="imagens/programador.jpg">
+            </div>
+        </div>
+<!-- FIM DA SESSÃO "OBJETIVOS" E INICIO DA SESSÃO "PORTFÓLIO"-->
+        <div id="conteudoPortfolio">
+            <div id="txtPortfolio">
+                <p>
+                    Portfólio
+                    <hr size="3" width="100%" color="white">
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div id="rodape">
             <div id="conteudoRodape">
                 <div id="contatos">
@@ -83,15 +160,15 @@
                     <hr size="3" width="100%" color="white">
 
                     <div class="icones">
-                        <img src="imagens/linkedInLogo.png" alt="Logo do LinkedIn">
+                        <a href="https://www.linkedin.com/in/lyncon-robert-8287b2204/"><img src="imagens/linkedInLogo.png" alt="Logo do LinkedIn"></a>
                     </div>
                     <div class="icones">
-                        <img src="imagens/facebookLogo.png" alt="Logo do Facebook">
+                        <a href="https://github.com/LynconR"><img src="imagens/gitHubLogo.png" alt="Logo do Github"></a>
                     </div>
                 </div>
-
             </div>
         </div>
+    <script type="text/javascript" src="scripts.js"></script>
     </body>
 
 </html>

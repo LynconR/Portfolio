@@ -9,15 +9,20 @@
     border: none;
     font-family: Antonio;
 }
+html{
+    scroll-behavior:smooth;
+}
 
 html, body {
 	height: 100%;
 	}
 
 .navbar{
+    position: fixed;
+    z-index: 1;
     width: 100%;
     height: 16%;
-    background-color:none;
+    background-color:white;
     overflow: hidden;
 }
 
@@ -51,7 +56,7 @@ html, body {
 }
 
 .navbar li:hover {
-    background-color: #2a2a2a;
+    background-color: #353535;
     transition-duration: 700ms;
     color: white;
     
@@ -59,40 +64,41 @@ html, body {
 
 #conteudoIndex {
     position: relative;
-    height: 84%;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top: 5px;
+    height: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 100px;
 }
 
-#fotoLyncon{
+#imagemIndex{
+    margin-top: 140px;
     float: left;
-    height: 76.8%;
-    width: 29.5%;
+    height: 277px;
+    width: 485px;
+    border-radius: 200px;
+    overflow: hidden;
     
 }
 
-#fotoLyncon img{
+#imagemIndex img{
     height: 100%;
     width: 100%;
 }
 
 #textosIndex{
     float: right;
-    margin-top: 162px;
+    margin-top: 140px;
     height: 300px;
     width: 500px;
 }
 
-#txtBemVindo{
-    float: right;  
+#txtBemVindo{ 
     font-size: 200%;
     width: 500px;
     text-align: center;
 }
 
-#txtResumo{
-    float: right;
+#txtResumoIndex{
     font-size: 110%;
     width: 500px;
     text-align:center;
@@ -115,15 +121,174 @@ html, body {
 }
 
 .botoes:hover{
-    background-color: #2a2a2a;
+    background-color: #353535;
     color: white;
     transition-duration: 700ms;
 }
 
+
+
+
+
+
+
+
+#conteudoSobre{
+    position: relative;
+    height: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 100px;
+    background-color: #353535;
+}
+
+#textosSobre{
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin-top: 140px;
+}
+
+#txtSobre{
+    float: right;  
+    font-size: 200%;
+    width: 500px;
+    text-align: center;
+    color: white;
+}
+
+#txtResumoSobre{
+    font-size: 110%;
+    width: 500px;
+    text-align:center;
+    color: white;
+}
+
+#imagemSobre{
+    margin-top: 140px;
+    float: right;
+    height: 277px;
+    width: 485px;
+    border-radius: 200px;
+    overflow: hidden;
+    
+}
+
+#imagemSobre img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+#conteudoObjetivos{
+    position: relative;
+    height: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 100px;
+    background-color:white;
+}
+
+#textosObjetivos{
+    float: right;
+    width: 500px;
+    height: 300px;
+    margin-top: 140px;
+}
+
+#txtObjetivos{
+    float: right;  
+    font-size: 200%;
+    width: 500px;
+    text-align: center;
+    color: Black;
+}
+
+#txtResumoObjetivos{
+    font-size: 110%;
+    width: 500px;
+    text-align:center;
+    color: black;
+}
+
+#imagemObjetivos{
+    margin-top: 140px;
+    float: left;
+    height: 277px;
+    width: 485px;
+    border-radius: 200px;
+    overflow: hidden;
+    
+}
+
+#imagemObjetivos img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+#conteudoPortfolio{
+    position: relative;
+    height: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 100px;
+    background-color:#353535;
+}
+
+#txtPortfolio{  
+    margin: 10px auto;
+    font-size: 200%;
+    width: 500px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #rodape{
     width: 100%;
     height: 16%;
-    background-color:#2a2a2a;
+    background-color:#353535;
 }
 
 #conteudoRodape{
@@ -168,7 +333,7 @@ html, body {
     width: 190px;
     padding:5px;
 }
-.icones{
+.icones a{
     float:right;
     width: 40px;
     height: 40px;
@@ -180,6 +345,6 @@ html, body {
     height: inherit;
 }
 .icones:hover{
-    opacity: 0.5;
+    opacity: 0.4;
     transition-duration: 700ms;
 }
